@@ -92,3 +92,20 @@ nuovoStudente.eta = etaUtente;
 // pushiamo nell array il nuovo oggetto
 studenti.push(nuovoStudente);
 console.log(studenti[i].nome + ' ' + studenti[i].cognome + ' ' + studenti[i].eta);
+
+
+
+// ALTRO METODO PIU CORTO
+
+// var nuovoStudente = {
+//   name : prompt("inserisci il tuo nome"),
+//   surname : prompt("inserisci il tuo cognome"),
+//   eta : parseInt(prompt("inserisci la tua età"))
+// }
+// console.log(nuovoStudente);
+// studenti.push(nuovoStudente);
+
+// ciclo per ristampare lista completa studenti
+// for (var i = 0; i < studenti.length; i++) {
+//   console.log(studenti[i].name, studenti[i].surname,studenti[i].eta);
+// }
